@@ -1,0 +1,253 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Inventario - Ativo</title>
+    <link rel="icon" href="vivinho.png">  <!-- adicionado após o primeiro envio-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+<body>
+  <header>
+    <div class="topnav">
+      <a asp-area="" asp-controller="Carteira" asp-action="Index" href="index.html" >Inventário</a>
+      <a sp-area="" asp-controller="Planta" asp-action="Index" href="ativos1.html">Ativo </a>
+    </div>
+  </header> 
+
+
+        <div class="row">
+            <div class="column">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th colspan="5">FWT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>Total</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-total' name="fwt"></label></div></td>
+                        </tr>
+
+                        <tr>
+                            <td>Ativos</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-ativos' name="fwt"></label></div></td>
+                        </tr>
+
+                        <tr>
+                            <td>Pendentes</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"> <label><input type="radio" id='radio-pendentes' name="fwt"></label></div></td>
+                        </tr>
+
+                        <tr>
+                            <td>Cancelados</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-cancelados' name="fwt"></label></div></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td class="img"> <button type="button"><img src="./img/download.png"></button></td>
+                            <td class="img"><button type="button"><img src="./img/tabela.png"></button> </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th colspan="5">M2M</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Total</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"> <label><input type="radio" id='radio-total' name="m2m"></label> </div></td>
+                        </tr>
+                        <tr>
+                            <td>Ativos</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-ativos' name="m2m"></label></div></td>
+                        </tr>
+                        <tr>
+                            <td>Pendentes</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"> <label><input type="radio" id='radio-pendentes' name="m2m"></label></div></td>
+                        </tr>
+
+                        <tr>
+                            <td>Cancelados</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-cancelados' name="m2m"></label></div> </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td class="img"><button type="button"><img src="./img/download.png"></button></td>
+                            <td class="img"><button type="button"><img src="./img/tabela.png"></button> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="column">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th colspan="5">Outros</th>
+                        </tr>
+                    </thead>
+
+
+
+                    <tbody>
+
+                        <tr>
+                            <td>Total</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"> <label><input type="radio" id='radio-total' name="m2m"></label> </div></td>
+                        </tr>
+                        <tr>
+                            <td>Ativos</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-ativos' name="m2m"></label></div></td>
+                        </tr>
+                        <tr>
+                            <td>Pendentes</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"> <label><input type="radio" id='radio-pendentes' name="m2m"></label></div></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td>Cancelados</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-cancelados' name="m2m"></label></div> </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td class="img"><button type="button"><img src="./img/download.png"></button></td>
+                            <td class="img"><button type="button"><img src="./img/tabela.png"></button> </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+
+
+
+
+
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th colspan="5">PEN</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Total</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-total' name="PEN"></label></div></td>
+                        </tr>
+                        <tr>
+                            <td>Ativos</td>
+                            <td class="qtd"> qtd </td>
+                            <td>
+                                <div class="radio"><label><input type="radio" id='radio-ativos' name="PEN"></label></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pendentes</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-pendentes' name="PEN"></label></div></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td>Cancelados</td>
+                            <td class="qtd"> qtd </td>
+                            <td> <div class="radio"><label><input type="radio" id='radio-cancelados' name="PEN"></label></div></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td class="img"><button type="button"><img src="./img/download.png"></button></td>
+                            <td class="img"><button type="button"><img src="./img/tabela.png"></button> </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="column">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th colspan="5">TERMINAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>Total</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-total' name="terminal"></label></div></td>
+                        </tr>
+                        <tr>
+                            <td>Ativos</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-ativos' name="terminal"></label></div></td>
+                        </tr>
+                        <tr>
+                            <td>Pendentes</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-pendentes' name="terminal"></label></div></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td>Cancelados</td>
+                            <td class="qtd"> qtd </td>
+                            <td><div class="radio"><label><input type="radio" id='radio-cancelados' name="terminal"></label></div></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td class="img"><button type="button"><img src="./img/download.png"></button></td>
+                            <td class="img"><button type="button"><img src="./img/tabela.png"></button> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <p></p>
+            </div>
+        </footer>
+
+    </body>
+    
+
+</html>

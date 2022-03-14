@@ -1,0 +1,196 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form {
+  position: relative;
+  z-index: 3;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 5% 5%;
+  padding: 3%;
+  text-align: ;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.col-md-1{
+  text-transform: uppercase;
+  color: #696969;
+
+}
+.form input {
+  font-family: Arial, Helvetica, sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin:0 0 10%;
+  padding: 5%;
+  box-sizing: border-box;
+  font-size: 100%;
+  color: #696969;
+}
+.form button {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #660099;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+ 
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #660099;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #660099;
+  font-size: 12px;
+}
+
+.form .register-form {
+  display: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #660099;
+  padding: 2%;
+}
+
+.topnav a {
+ float: left;
+ display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding-right: 3%;
+ text-decoration: none;
+}
+
+.topnav a:hover {
+ transform: translateY(-1px);
+ color: white;
+ border: none;
+}
+
+.topnav a:active {
+ transform: translateY(0);
+ }
+
+.row {
+ display: -webkit-flex;
+ display: flex;
+}
+
+.column {
+ -webkit-flex: 1;
+ -ms-flex: 1;
+ flex: 1;
+ width: 30%;
+ height: 30%;
+}
+
+img {
+ width: 20px;
+ margin-top: 40%;
+ margin-left: 10%;
+ margin-right: 2%;
+}
+
+button {
+ border: 0;
+ background: transparent;
+ padding: 0
+}
+.table th {
+ height: 40px;
+ position: relative;
+ float: initial;
+}
+
+button:hover {
+ transform: translateY(-1px);
+}
+
+
+
+button:active {
+ transform: translateY(0);
+}
+
+
+
+.table {
+ font-size: 100%;
+ color: #696969;
+ border-style: solid;
+ border: 2px solid #BEBEBE;
+ border-radius: 5px;
+ width: 50%;
+ margin: auto;
+ margin-top: 20%;
+}
+
+
+
+td {
+ width: 30% 30%;
+ height: auto;
+ padding-left: 4%
+}
+
+.radio:active {
+ transform: translateY(1px);
+}
+
+
+
+.radio button {
+ margin-left: 23px;
+}
+
+
+
+button {
+ border: 0;
+ background: transparent;
+ padding: 0
+}
+
+
+
+button:hover {
+ transform: translateY(-1px);
+}
+
+
+
+button:active {
+ transform: translateY(0);
+}
+
+.footer {
+ padding: 5%;
+ text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .row {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}

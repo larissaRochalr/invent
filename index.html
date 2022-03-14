@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Inventario</title>
+	<link rel="icon" href="vivinho.png">  <!-- adicionado após o primeiro envio-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="topnav">
+			<a asp-area="" asp-controller="Carteira" asp-action="Index" href="index.html" >Inventário</a>
+			<a sp-area="" asp-controller="Planta" asp-action="Index" href="ativos1.html">Ativo </a>
+		</div>
+	</header> 
+	<!--<form class="form-vertical" asp-controller="Carteira" asp-action="indexCarregado" method="post" >
+
+		<div class ="form-group">
+			<label class="col-md-1" for="cdGrupo">Grupo</label>
+			<div class="col-md-2">
+				<input type="text" class="form-control" asp-for="cdGrupo">
+			</div>
+
+			<label class="col-md-1" for="documento">Documento</label>
+			<div class="col-md-2">
+				<input type="text" class="form-control" asp-for="documento">
+			</div>
+
+			<div class="col-md-2">
+				<button class="btn-group">Consultar</button>
+			</div>
+		</div>-->
+
+	</form>
+
+	<div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="text" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+    </form>
+    <form class="login-form">
+      <label class="col-md-1" for="documento">Grupo</label>
+      <input type="text" placeholder=""/>
+      <label class="col-md-1" for="documento">Documento</label>
+      <input type="text" placeholder=""/>
+      <button>Consultar</button>
+    </form>
+  </div>
+</div>
+
+
+</body>
+<footer>
+ <div class="footer">
+        <p></p>
+ </div>
+ </footer>
+
+
+
+</html>
